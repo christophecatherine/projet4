@@ -16,7 +16,7 @@ class Site extends Component {
                     <NavBar />
                     <Container>
                         <Switch>
-                            <Route path="/" render={() => <Accueil />} />
+                            <Route path="/" exact render={() => <Accueil />} />
                             <Route path="/localisation" render={() => <Localisation />} />
                             {/* <Route path="/contact" render={(props) => <Contact />} /> */}
                             <Route path="/contact" render={(props) => <Contact {...props}/>} />
