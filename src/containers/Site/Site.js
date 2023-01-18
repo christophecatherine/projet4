@@ -20,7 +20,7 @@ class Site extends Component {
                             <Route path="/localisation" render={() => <Localisation />} />
                             {/* <Route path="/contact" render={(props) => <Contact />} /> */}
                             <Route path="/contact" render={(props) => <Contact {...props}/>} />
-                            <Route render={() => <Route404 />} />
+                            {/* <Route render={() => <Route404 />} /> */}
                         </Switch>
                     </Container>
                     <div className='minSite'></div>
