@@ -5,7 +5,7 @@ import Contact from './Contact/Contact';
 import NavBar from "../../components/Ui/NavBar/NavBar";
 import { Route, Switch } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Route404 from "../../components/Route404/Route404";
+// import Route404 from "../../components/Route404/Route404";
 import Footer from "../../components/Footer/Footer"
 
 class Site extends Component {
