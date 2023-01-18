@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/projet4/precache-manifest.fed11fe289efcc079484bb48dc7575e7.js"
+  "christophecatherine.github.io/projet4/precache-manifest.bcfdf565497a5dbec76dc7b7bc0c3c52.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/projet4/index.html", {
+workbox.routing.registerNavigationRoute("christophecatherine.github.io/projet4/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
