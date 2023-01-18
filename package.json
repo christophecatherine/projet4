@@ -1,5 +1,5 @@
 {
-  "homepage": "christophecatherine.github.io/projet4",
+  "homepage": "https://christophecatherine.github.io/projet4",
   "name": "projet4",
   "version": "0.1.0",
   "private": true,
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
