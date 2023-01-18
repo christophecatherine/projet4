@@ -37,7 +37,7 @@ import LinkContainer from "react-router-bootstrap/lib/LinkContainer";
 const navBar = (props) => (
     <>
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="#home">Ariège MGA</Navbar.Brand>
+            <Navbar.Brand href="/">Ariège MGA</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
